@@ -7,6 +7,6 @@ class Solution:
         for i in range(0, n, k):
             group = s[i:i+k]
             if len(group) < k:
-                group += fill * (k - len(group))
+                group += fill * (k - len(group)) 
             groups.append(group)
         return groups
